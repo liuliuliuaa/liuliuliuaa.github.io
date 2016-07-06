@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style type="text/css">
+	#wujiao{
+		width: 0;
+		height: 0;
+		margin: 300px 300px;
+		color: #f00;
+		position: relative;;
+		display: block;
+		border-right: 100px solid  transparent;
+		border-left: 100px solid   transparent;
+		border-bottom: 70px solid  #f00;
+		 -moz-transform: rotate(35deg); 
+		 -webkit-transform: rotate(35deg); 
+		 -ms-transform: rotate(35deg);
+		 -o-transform: rotate(35deg);
+	} 
+
+	#wujiao:before{
+		width: 0;
+		height: 0;
+		display: block;
+		position: absolute;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		border-bottom: 80px solid #0f0;
+		top:-45px;
+		left: -65px;
+		content: '';
+	    -webkit-transform: rotate(-35deg);
+		 -moz-transform: rotate(-35deg);
+		 -ms-transform: rotate(-35deg);
+	     -o-transform: rotate(-35deg);
+
+	}
+	#wujiao:after{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    display: block;
+    top:3px;
+    left: -105px;
+    content: '';
+    border-right: 100px solid  transparent;
+	border-left: 100px solid   transparent;
+	border-bottom: 70px solid  #00f;
+    -moz-transform: rotate(-70deg); 
+	 -webkit-transform: rotate(-70deg); 
+	 -ms-transform: rotate(-70deg);
+	-o-transform: rotate(-70deg);
+   
+   
+
+
+	}
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+	<div id="wujiao"></div>
+	
+</body>
+</html>
