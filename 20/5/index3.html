@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒模型</title>
+
+
+	<style type="text/css">
+
+	/*用clearfix  给子集元素加外部间距   父级元素不变*/
+	.clearfix:before,
+	.clearfix:after{
+		content: " ";
+		display:table;
+		clear: both;
+	}
+
+
+    .box{
+    	width: 100px;
+    	height: 100px;
+    	background: yellow;
+    	padding-left: 30px;
+    	
+
+    	box-sizing:border-box;  
+    	     /*给父级  不会成大盒子*/
+    	-moz-box-sizing:border-box;  
+    	-o-box-sizing:border-box;  
+    	-webkit-box-sizing:border-box;  
+
+
+
+
+    }
+    .box1{
+    	width: 50px;
+    	height: 50px;
+    	background: red;
+    	margin-top: 20px;
+
+    	
+    }
+    
+
+
+	</style>
+</head>
+<body>
+ <div class="box clearfix">  
+<!-- clearfix  必须给父 -->
+ 	
+ 	<div class="box1"></div>
+ </div>
+
+	
+</body>
+</html>
