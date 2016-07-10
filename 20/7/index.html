@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2个媒介查询</title>
+	<style type="text/css">
+     .dv{
+     	width: 100px;
+     	height: 100px;
+     	background: red;
+     	border-radius: 50%
+
+     }    
+
+     /*第一个是最小的*/
+
+     @media(min-width:500px){
+      .dv{
+     	width: 300px;
+     	height: 300px;
+     	background: yellow;
+     	border-radius: 50%
+     }
+     }
+@media(min-width: 700px){
+      .dv{
+     	width: 600px;
+     	height: 600px;
+     	background: blue;
+     	border-radius: 50%
+     }
+     }
+ 
+
+	</style>
+</head>
+<body>
+	<div class="dv"></div>
+	
+</body>
+</html>
