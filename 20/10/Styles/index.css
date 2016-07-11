@@ -1,24 +1,21 @@
-!important
-
 *{
 	margin: 0;
 	padding: 0;
-	font-size:100%;
-	 font-size: 10px;
-    font-family: "微软雅黑","宋体";
-    header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+	font-size:10px;
 }
-
-ul{list-style: none;}
+li{list-style: none;}
 a{text-decoration: none;}
 .clear{clear: both;}
+
+
+
 
 
 #header {padding-top: 32px}
 #header h1{ padding-left: 38px; float: left;}
 #header h1 img{width:226px; height:auto; padding-right: 10px}
 .navbox{padding-top:70px}
-.nav li{float:left; 	 font-size: 10px;}
+.nav li{float:left; font-size: 10px; }
 .nav li  a{ padding: 12px 35px 6px;
             color: #A60005;
             font-size: 1.6em;
@@ -33,4 +30,83 @@ a{text-decoration: none;}
 #banner img{
 	width:100% ;
 	height:auto; 
+}
+
+
+
+
+#student{
+	width: 100%;
+	background: #F1C40F;
+	padding-top: 55px;
+
+
+}
+
+
+
+
+#student  header {
+	width: 510px;
+	margin: 0 auto;
+	padding-top: 
+}
+#student  header h3{
+
+	   font-size: 4em;
+       color: #E84C3D;
+       float: left;
+}
+#student  header .line{
+     background: #BC860C ;
+     height: 60px;
+     width: 1px;
+     float: left;
+
+}
+#student  header .linebox{
+	padding: 0px 40px;
+	float: left;
+}
+.txt1{
+	color: #E84C3D;
+	font-size: 2.4em;
+}
+
+.txt2{
+	color: #fff;
+	font-size: 2.4em;
+}
+
+
+
+
+#bigpic{
+	width: 638px;
+	height: 374px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 30px;
+	
+
+}
+#bigpic ul  img{width: 638px;
+	height: 374px} 
+
+#bigpic ul{ width: 5000px}
+#bigpic  li{ float: left;width: 638px;
+	height: 374px;}	
+#list{.navon;}
+#list .navon{background:pink;}
+
+#list li{width: 20px;
+height: 20px;
+float: left;
+background: red;
+margin-right: 10px;
+text-indent: -999px;
+border-radius: 50%}
+#list ul{
+	width: 130px;
+	margin:0 auto;
 }
