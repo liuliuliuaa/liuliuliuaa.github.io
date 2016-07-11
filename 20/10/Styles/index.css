@@ -6,6 +6,7 @@
 li{list-style: none;}
 a{text-decoration: none;}
 .clear{clear: both;}
+header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
 
 
 
@@ -96,17 +97,118 @@ a{text-decoration: none;}
 #bigpic ul{ width: 5000px}
 #bigpic  li{ float: left;width: 638px;
 	height: 374px;}	
-#list{.navon;}
-#list .navon{background:pink;}
+#nav{.navon;
+border-bottom: 100px}
+#nav .navon{background:pink;}
 
-#list li{width: 20px;
+#nav li{width: 20px;
 height: 20px;
 float: left;
 background: red;
 margin-right: 10px;
 text-indent: -999px;
 border-radius: 50%}
-#list ul{
+#nav ul{
 	width: 130px;
 	margin:0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:850px){
+	
+#header h1{ float:none; width:100%; margin:0 auto; padding-left:0; padding-top:20px; padding-bottom:10px;}
+#header h1 img{ display:block; margin:0 auto;}
+#header{ position:relative;}
+
+#header .navbox{ float:none;width:100%; position:absolute; top:0;background-color:#e84c3d; padding-top:0px;}
+#header ul{margin:0 auto; width:422px;}
+#header ul a{background-color:#e84c3d; padding-left:10px; padding-right:10px; color:#FFF; line-height:28px; padding-top:0px; padding-bottom:0px; border:1px solid #e84c3d;  }
+
+	
+	}
+@media screen and (max-width:822px){
+
+#recruitment footer .wrap{width:260px;}
+#recruitment footer .box{ float:none; margin-bottom:10px;}
+
+
+
+
+}
+
+@media screen and (max-width:702px){
+#header h1 img{ width:150px; height:auto;}
+#works header img{width:70%;}
+#works footer .wrap{ width:100%;}
+#works footer .imgtop{ width:70%; height:auto;}
+#works footer .imgbottom{ width:70%; height:auto;}
+#works footer img{ margin:7px;}
+
+
+}
+@media screen and (max-width:615px){
+#header ul{ padding-left:0;}
+#header ul a{font-size:1.2em;}
+#header h1 img{ width:130px; height:auto;}
+#header ul{width:362px;}
+
+#student header{ width:100%;}
+#student h3{ float:none; font-size:3em;}
+#student .linebox{ display:none;}
+#student  .txt1{margin-left:0px; font-size:2em;}
+#student .txt2{padding-left:0px; font-size:2em;}
+
+#partner footer .wrap .top{ width:100px;}
+#partner footer .wrap .bottom{ width:100px;}
+#partner footer .wrap .icon{ float:none;}
+
+#contactus footer{ width:80%; margin:0 auto; padding-top:65px;}
+#contactus footer .mapbox img{ width:275px; height:auto;}
+#contactus footer .bottom_left{ float:none; margin:0 auto;}
+#contactus footer .bottom_right{ float:none;margin:0 auto; width:100px; padding-left:0; padding-top:20px;}
+#footer div{ width:100%;}
+#footer p{ float:none;}
+
+
+}
+
+@media screen and (max-width:350px){
+#header ul a{font-size:1.1em;padding:12px 5px 6px 5px; }
+#header ul{width:272px;}
+
+
+#student h3{font-size:2em;}
+#student .txt1{font-size:1.2em;}
+#student .txt2{font-size:1.2em;}	
+#student  .btn{width:100px;}
+#student  .btn ul li{ width:10px; height:10px;}
+
+#contactus footer .mapbox img{ width:210px; height:auto;}
+#contactus footer .bottom_left{ width:210px;}
+#contactus footer .bottom_left .name{ float:none; width:200px;}
+#contactus footer .bottom_left .mail{ float:none; width:200px; margin-top:5px;}
+#contactus footer .bottom_left .message{width:200px;margin-top:5px;}
+#contactus footer .bottom_left .sub{ float:none; display:block;margin:0 auto; margin-top:5px;}
+
+
+
+
+
+}
+
