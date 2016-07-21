@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-size:10px;
+  font-size:100%; font-size:10px; font-family:"微软雅黑", "宋体";
 }
 li{list-style: none;}
 a{text-decoration: none;}
@@ -10,125 +10,92 @@ header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcap
 
 
 
+/*header*/
+#header{ padding-top:32px;}
+#header h1{ float:left; padding-left:38px;}
+#header h1 img{ width:226px; height:auto;}
+#header .navbox{ float:left; padding-top:70px;}
+#header ul{ padding-left:20px;}
+#header ul li{ float:left;}
+#header ul a{padding:12px 35px 6px 35px; color:#a60005;font-size:1.6em; font-family:Arial, Helvetica, sans-serif;border:1px solid #fff;}
+#header ul li a:hover{ background:#5cc2d0; border:1px solid #d1e0e1; color:#fff;}
+/*header*/
+
+/*banner*/
+#banner{ clear:both;}
+#banner img{width:100% ;height:auto;}
+/*banner*/
 
 
-#header {padding-top: 32px}
-#header h1{ padding-left: 38px; float: left;}
-#header h1 img{width:226px; height:auto; padding-right: 10px}
-.navbox{padding-top:70px}
-.nav li{float:left; font-size: 10px; }
-.nav li  a{ padding: 12px 35px 6px;
-            color: #A60005;
-            font-size: 1.6em;
-            font-family: Arial,Helvetica,sans-serif;
-            border: 1px solid #FFF;}
-.nav li  a:hover{ cursor:pointer;
-                  background:#5cc2d0; border:1px solid #d1e0e1; color:#fff;}
-
-
-
-
-#banner img{
-	width:100% ;
-	height:auto; 
-}
-
-
-
-
-#student{
-	width: 100%;
-	background: #F1C40F;
-	padding-top: 55px;
-
-
-}
-
-
-
-
-#student  header {
-	width: 510px;
-	margin: 0 auto;
-	padding-top: 
-}
-#student  header h3{
-
-	   font-size: 4em;
-       color: #E84C3D;
-       float: left;
-}
-#student  header .line{
-     background: #BC860C ;
-     height: 60px;
-     width: 1px;
-     float: left;
-
-}
-#student  header .linebox{
-	padding: 0px 40px;
-	float: left;
-}
-.txt1{
-	color: #E84C3D;
-	font-size: 2.4em;
-}
-
-.txt2{
-	color: #fff;
-	font-size: 2.4em;
-}
-
-
-
-
-#bigpic{
-	width: 638px;
-	height: 374px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding-top: 30px;
-	
-
-}
-#bigpic ul  img{width: 638px;
-	height: 374px} 
-
+/*student*/
+#student{width: 100%;	background: #F1C40F;padding-top: 55px;padding-bottom: 100px;}
+#student  header {width: 510px;margin: 0 auto; padding-bottom:35px; text-align:center;}
+#student h3{float:left;font-size:4em; color:#e84c3d;}
+#student .linebox{ float:left; height:60px; width:1px; padding:0 40px;}
+#student  .line{ background: #BC860C ;height: 60px;  width: 1px;}
+.txt1{	color: #E84C3D;font-size:2.4em; }
+.txt2{color: #fff;font-size:2.4em; }
+#bigpic{width: 638px;height: 374px;margin: 0 auto;overflow: hidden;padding-top: 30px;}
+#bigpic ul  img{width: 638px;height: 374px} 
 #bigpic ul{ width: 5000px}
-#bigpic  li{ float: left;width: 638px;
-	height: 374px;}	
-#nav{.navon;
-border-bottom: 100px}
+#bigpic  li{ float: left;width: 638px;height: 374px;}		
+#nav{.navon;border-bottom: 100px;padding-top: 20px}
 #nav .navon{background:pink;}
+#nav li{width: 20px;height: 20px;float: left;background: red;margin-right: 10px;text-indent: -999px;border-radius: 50%}
+#nav ul{width: 130px;margin:0 auto;}
+/*student*/	
 
-#nav li{width: 20px;
-height: 20px;
-float: left;
-background: red;
-margin-right: 10px;
-text-indent: -999px;
-border-radius: 50%}
-#nav ul{
-	width: 130px;
-	margin:0 auto;
+
+
+/*aboutus*/
+#aboutus{ width:100%; text-align:center;}
+#aboutus header{ background-color:#27ae61; padding-top:45px;padding-bottom:20px;}
+#aboutus header .wrap{ width:60%; margin:0 auto;}
+#aboutus header h3{font-size:3.5em; color:#000; padding-bottom:20px;}
+#aboutus header .txt1{ font-size:1.1em;padding:0 20px 10px 20px; color: black}
+#aboutus header .line1{ display:block; float:left; background:#1ca356; height:1px; width:200px; border-bottom:2px solid #2db467; }
+#aboutus header .line2{display:block;float:right; background:#1ca356; height:1px; width:200px; border-bottom:2px solid #2db467; }
+#aboutus header .txt2{ display:block; clear:both; font-size:1.8em;padding-bottom:20px;}
+#aboutus header p{font-size:1.1em; color:#fffa99; line-height:2em;}
+#aboutus footer{ padding-bottom:80px; background:#2cc76c; text-align:center; padding-top:40px;}
+/*aboutus*/
+
+
+/*works*/
+#works{width: 100%; text-align:center; }
+#works header{ background-color:#e77e23; padding-top: 37px; padding-bottom: 20px}
+#works .warp{width: 60%; margin: 0 auto;}
+#works h3{font-size: 3.5em;padding-bottom: 20px; color: #fff;}
+#works .txt1{font-size: 1.1em; padding:padding:0 20px 10px 20px; color:#fff; }
+#works .line1{ display:block; float:left; background:#d97418; height:1px; width:200px; border-bottom:2px solid #ef882c; }
+#works .line2{display:block;float:right; background:#d97418; height:1px; width:200px; border-bottom:2px solid #ef882c; }
+#works .txt2{ display:block; clear:both; font-size:1.8em;padding-bottom:20px;color:#fff;}
+#works footer{padding-bottom:100px; background:#f39c11; text-align:center; padding-top:40px;}
+#works footer .wrap{width: 669px; margin: 0 auto}
+#works footer .imgtop{width: 315px; height: auto;}
+#works footer .wrap  img{margin: 7px}
+#works footer .imgbottom{width: 655px;  height: auto;}
+/*works*/
+
+
+/*partner*/
+#partner{width: 100%;text-align:center;}
+#partner header{background-color:#34495e; padding-top:45px;padding-bottom:20px; }
+
+
+/*partner*/
+
+
+/*相应式*/
+@media screen and (max-width:1003px){
+#header ul a{ padding-left:20px; padding-right:20px;}
+
+#aboutus footer  img{width:70%;}
+
+#student .pic{ width:100%; margin:0 auto;padding-bottom:10px;}
+#student  .pic img{ width:70%; display:block; margin:0 auto;}
+#studen  .btn ul li{ width:10px; height:10px; background:#F00; border-radius:10px; float:left; margin:0 5px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:850px){
 	
@@ -154,6 +121,9 @@ border-radius: 50%}
 
 @media screen and (max-width:702px){
 #header h1 img{ width:150px; height:auto;}
+#student #nav   {width:100px; margin: 0 auto}
+#student #nav ul li{ width:14px; height:14px;}
+
 #works header img{width:70%;}
 #works footer .wrap{ width:100%;}
 #works footer .imgtop{ width:70%; height:auto;}
@@ -169,9 +139,9 @@ border-radius: 50%}
 #header ul{width:362px;}
 
 #student header{ width:100%;}
-#student h3{ float:none; font-size:3em;}
+#student  h3{ float:none; font-size:3em;}
 #student .linebox{ display:none;}
-#student  .txt1{margin-left:0px; font-size:2em;}
+#student .txt1{margin-left:0px; font-size:2em;}
 #student .txt2{padding-left:0px; font-size:2em;}
 
 #partner footer .wrap .top{ width:100px;}
@@ -194,10 +164,13 @@ border-radius: 50%}
 
 
 #student h3{font-size:2em;}
+
+
 #student .txt1{font-size:1.2em;}
 #student .txt2{font-size:1.2em;}	
-#student  .btn{width:100px;}
-#student  .btn ul li{ width:10px; height:10px;}
+#student #nav   {width:100px; margin: 0 auto}
+#student #nav ul li{ width:10px; height:10px;}
+
 
 #contactus footer .mapbox img{ width:210px; height:auto;}
 #contactus footer .bottom_left{ width:210px;}
