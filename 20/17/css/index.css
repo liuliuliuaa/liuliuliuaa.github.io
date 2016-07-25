@@ -2,13 +2,14 @@
 ul{list-style: none;}
 a{text-decoration: none;}
 .clear{clear: both}
+body{background: url("../imagle/content_bg.jpg")}
 
 
 /*header*/
 #header{height: 129px; background: url(../imagle/header_bg.png); padding-top: 30px; }
 #header_wrap{margin: 0 auto;width: 960px; margin: 0 auto}
-.logo{width: 100px;height: 100px;border-radius:100px; overflow: hidden; float: left;}
-.logo img{border-radius:100px;border: none;}
+.logo{width: 100px;height: 100px;border-radius:50%; overflow: hidden; float: left;}
+.logo img{}
 .nav li{float: left;   margin-left:80px; margin-top: 27px;}     
 .nav li a {  height: 30px;color: #DFD8CB; font-size: 24px; text-align: center;} 
 .nav li img{width: 16px;height: 16px;}
@@ -19,7 +20,7 @@ a{text-decoration: none;}
 
 
 /*banner*/
-#banner{  height: 463px;  }
+#banner{  height: 463px;  background: url("../imagle/push_bg2.jpg");}
 .banner_box{width: 960px; height: 408px; margin:0 auto; overflow: hidden;}
 .banner_box ul{width: 3000px; }
 .banner_box ul li{float: left;width: 960px; height: 408px;}
@@ -32,3 +33,43 @@ a{text-decoration: none;}
 
 /*banner*/
 
+
+/*my*/
+
+.my_header{height: 65px;background:url("../imagle/actionbar.png");}
+.my_center{width: 860px;margin: 0 auto; padding-top: 50px; padding-bottom: 50px}
+.my_header h3{color: #DFD8CB; font-size: 24px;  width: 100px; margin: 0 auto; height: 65px; line-height: 65px; }
+.my_header h3:hover{color: #e8044f}
+.my_pic{float: left}
+.jieshao{float: left; padding-top: 80px; padding-left: 100px}
+.jieshao img{width: 14px;height: 14px; padding-right: 16px}
+.jieshao  a{ font-size: 22px;}
+.jieshao li{ padding-bottom: 20px}
+.jieshao  a:hover{color: #e8044f}
+/*my*/
+
+
+/*能力分析*/
+
+.my_nengli{height: 65px;background:url("../imagle/actionbar.png");}
+.my_nengli h3{color: #DFD8CB; font-size: 24px;  width: 100px; margin: 0 auto; height: 65px; line-height: 65px; }
+.my_nengli h3:hover{color: #e8044f}
+.nengli ul{padding-top: 50px; padding-bottom: 50px}
+.nengli ul li{width: 960px;margin:0 auto 24px;display:table;}
+.nengli ul li div.ico{display:table-cell; vertical-align:middle;color:#535353}
+.nengli ul li div.ico .bg{background:#e8044f;position:relative;width:120px;height:120px;border-radius:50%;margin:0 auto}
+.nengli ul li div.ico .bg div{width:100%;height:100%;border-radius:50%;position:absolute}
+.nengli ul li div.ico .bg .l_bg{clip:rect(0 60px 120px 0)}
+.nengli ul li div.ico .bg .l_bg .l{clip:rect(0 60px 120px 0);background:#dedede}
+
+.nengli ul li div.ico .bg .r_bg{clip:rect(0 120px 120px 60px)}
+.nengli ul li div.ico .bg .r_bg .r{clip:rect(0 120px 120px 60px);background:#dedede}
+.nengli ul li div.ico .bg .point{width:90%;height:90%;left:5%;top:5%;background:#fff;font-size:3em;line-height:2.5em; text-align: center;}
+.nengli ul li div.ico p{font-size:22px;font-weight:bold}
+
+.nengli ul li p.exp{display:table-cell;font-size:1.4em;color:#000;text-align:left;padding-left:3em;line-height:2em;padding-top:1em}
+
+
+/*能力分析*/
+
+.zp_wrap{height: 463px;  background: url("../imagle/push_bg2.jpg");}
