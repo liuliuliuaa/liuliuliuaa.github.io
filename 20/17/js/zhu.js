@@ -1,20 +1,26 @@
 $(function(){
+// banne的轮播 
    $(".banner_box").kxbdSuperMarquee({
      distance:960,
-     time:5,
+     time:3,
      direction:"left",
      navId:"#navpic",
      
    })
 
+// logo动画
+   $(".logo, .lx_right img").hover(function(){
+  $(this).addClass("rotateIn animated");
 
-   $(".logo").hover(function(){
-   	$(this).stop(true,true).removeClass("zoomInUp animated").addClass("zoomInUp animated");
-   },function(){
-   			$(this).removeClass("zoomInUp animated");
+        },
+
+
+    function(){
+       $(this).removeClass("rotateIn animated");
+   
    })
 
-
+// 作品展示
 function scrollC(obj,point){
   var p=0,
   time=setInterval(function(){
@@ -45,7 +51,7 @@ function scrollC(obj,point){
 };
 
 
-$(".nengli ul li").waypoint(function(){
+$("#nengli ul li").waypoint(function(){
   if(!this.scrollC){//确保动画只有一次
     this.scrollC=true;
     scrollC($(this),parseInt($(this).find("div.ico .point").text()));
@@ -53,4 +59,49 @@ $(".nengli ul li").waypoint(function(){
 },{offset:"70%"});
 
 
+
+
+$(".zp_box").kxbdSuperMarquee({
+     distance:960,
+     time:3,
+     direction:"left",
+     navId:".zp_nav",
+   })
+
+
+
+ $(".nav li").click(function(){
+
+                var b=$(this).attr("title");
+                var a=$("#"+b).offset().top;
+                $("html,body").animate({scrollTop:a},500);
+            })
+
+
+
+
+
+ $(window).scroll(function(){
+               //获取滚动条的Top
+               var a=$(document).scrollTop();
+               if(a>=$("#box1").offset().top-300){
+                   $("#box1").removeClass().addClass("zoomInLeft animated");
+               }
+
+           })
+
+
+ 
+
 })
+
+
+
+
+
+ 
+
+
+
+
+          

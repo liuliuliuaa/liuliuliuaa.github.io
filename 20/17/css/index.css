@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;font-family: Georgia;   font-size: 14px; color: #484642;}  
+*{margin: 0;padding: 0;font-family: "微软雅黑";   font-size: 14px; color: #484642;}  
 ul{list-style: none;}
 a{text-decoration: none;}
 .clear{clear: both}
@@ -40,8 +40,8 @@ body{background: url("../imagle/content_bg.jpg")}
 .my_center{width: 860px;margin: 0 auto; padding-top: 50px; padding-bottom: 50px}
 .my_header h3{color: #DFD8CB; font-size: 24px;  width: 100px; margin: 0 auto; height: 65px; line-height: 65px; }
 .my_header h3:hover{color: #e8044f}
-.my_pic{float: left}
-.jieshao{float: left; padding-top: 80px; padding-left: 100px}
+.my_pic{float: left;  }
+.jieshao{float: left; padding-top: 30px; padding-left: 100px}
 .jieshao img{width: 14px;height: 14px; padding-right: 16px}
 .jieshao  a{ font-size: 22px;}
 .jieshao li{ padding-bottom: 20px}
@@ -50,26 +50,47 @@ body{background: url("../imagle/content_bg.jpg")}
 
 
 /*能力分析*/
-
 .my_nengli{height: 65px;background:url("../imagle/actionbar.png");}
 .my_nengli h3{color: #DFD8CB; font-size: 24px;  width: 100px; margin: 0 auto; height: 65px; line-height: 65px; }
 .my_nengli h3:hover{color: #e8044f}
-.nengli ul{padding-top: 50px; padding-bottom: 50px}
-.nengli ul li{width: 960px;margin:0 auto 24px;display:table;}
-.nengli ul li div.ico{display:table-cell; vertical-align:middle;color:#535353}
-.nengli ul li div.ico .bg{background:#e8044f;position:relative;width:120px;height:120px;border-radius:50%;margin:0 auto}
-.nengli ul li div.ico .bg div{width:100%;height:100%;border-radius:50%;position:absolute}
-.nengli ul li div.ico .bg .l_bg{clip:rect(0 60px 120px 0)}
-.nengli ul li div.ico .bg .l_bg .l{clip:rect(0 60px 120px 0);background:#dedede}
+#nengli ul{padding-top: 50px; padding-bottom: 50px}
+#nengli ul li{width: 960px;margin:0 auto 24px;display:table;}
+#nengli ul li div.ico{display:table-cell; vertical-align:middle;color:#535353}
+#nengli ul li div.ico .bg{background:#e8044f;position:relative;width:120px;height:120px;border-radius:50%;margin:0 auto}
+#nengli ul li div.ico .bg div{width:100%;height:100%;border-radius:50%;position:absolute}
+#nengli ul li div.ico .bg .l_bg{clip:rect(0 60px 120px 0)}
+#nengli ul li div.ico .bg .l_bg .l{clip:rect(0 60px 120px 0);background:#dedede}
 
-.nengli ul li div.ico .bg .r_bg{clip:rect(0 120px 120px 60px)}
-.nengli ul li div.ico .bg .r_bg .r{clip:rect(0 120px 120px 60px);background:#dedede}
-.nengli ul li div.ico .bg .point{width:90%;height:90%;left:5%;top:5%;background:#fff;font-size:3em;line-height:2.5em; text-align: center;}
-.nengli ul li div.ico p{font-size:22px;font-weight:bold}
+#nengli ul li div.ico .bg .r_bg{clip:rect(0 120px 120px 60px)}
+#nengli ul li div.ico .bg .r_bg .r{clip:rect(0 120px 120px 60px);background:#dedede}
+#nengli ul li div.ico .bg .point{width:90%;height:90%;left:5%;top:5%;background:#fff;font-size:3em;line-height:2.5em; text-align: center;}
+#nengli ul li div.ico p{font-size:22px;font-weight:bold}
 
-.nengli ul li p.exp{display:table-cell;font-size:1.4em;color:#000;text-align:left;padding-left:3em;line-height:2em;padding-top:1em}
-
-
+#nengli ul li p.exp{display:table-cell;font-size:22px;text-align:left;padding-left:3em;line-height:2em;padding-top:1em;}
 /*能力分析*/
 
-.zp_wrap{height: 463px;  background: url("../imagle/push_bg2.jpg");}
+/*作品展示*/
+.zp_wrap{height: 463px;  background: url("../imagle/push_bg2.jpg"); padding-bottom: 40px}
+.zp_box{width: 960px; height: 408px; margin:0 auto; overflow: hidden; }
+.zp_box ul{width: 6000px;  padding-top: 50px ;padding-bottom: 50px}
+.zp_box ul li{float: left;width: 960px; height: 408px;}
+.zp_box ul li img{width: 100%; height: auto;}
+.zp_nav{border-bottom: 100px;padding-top: 20px}
+.zp_nav .navOn{background:#e8044f; cursor: pointer;}
+.zp_nav li{width: 22px;height: 22px;float: left;background:#c7c3b3;margin-right: 10px;text-indent: -999px;border-radius: 50%}
+.zp_nav ul{width: 160px;margin:0 auto;}
+/*作品展示*/
+
+
+/*联系我们*/
+#lx{height: 159px; background: url(../imagle/header_bg.png);}
+.lx_wrap{ width: 960px;margin:0 auto ; }
+.lx_left img{width: 80px; height:140px; float: left ; padding-top: 20px}
+.lx_wrap h3{color: #DFD8CB; font-size: 24px;float: left ; padding-left: 30px  }
+.lx_wrap h3:hover{color: #e8044f}
+.lx_left{height: 159px; line-height: 159px; float: left}
+.lx_right{float: left; padding-left: 100px; padding-top: 30px}
+.lx_right img{width: 80px;height: 80px; padding-left: 24px ;padding-bottom: 10px }
+.lx_right li{float: left; width: 180px; text-align: center}
+.lx_right p{ font-size: 18px;color: #eee3e6}
+.lx_right p:hover{color: #e8044f}
