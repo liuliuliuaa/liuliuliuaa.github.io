@@ -43,7 +43,7 @@ body{background: url("../imagle/content_bg.jpg")}
 .my_pic{float: left;  }
 .jieshao{float: left; padding-top: 30px; padding-left: 100px}
 .jieshao img{width: 14px;height: 14px; padding-right: 16px}
-.jieshao  a{ font-size: 22px;}
+.jieshao  a{ font-size: 20px;}
 .jieshao li{ padding-bottom: 20px}
 .jieshao  a:hover{color: #e8044f}
 /*my*/
@@ -66,7 +66,7 @@ body{background: url("../imagle/content_bg.jpg")}
 #nengli ul li div.ico .bg .point{width:90%;height:90%;left:5%;top:5%;background:#fff;font-size:3em;line-height:2.5em; text-align: center;}
 #nengli ul li div.ico p{font-size:22px;font-weight:bold}
 
-#nengli ul li p.exp{display:table-cell;font-size:22px;text-align:left;padding-left:3em;line-height:2em;padding-top:1em;}
+#nengli ul li p.exp{display:table-cell;font-size:20px;text-align:left;padding-left:3em;line-height:2em;padding-top:1em;}
 /*能力分析*/
 
 /*作品展示*/
