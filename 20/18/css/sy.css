@@ -34,8 +34,8 @@ ul{list-style: none;}
 #women h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
 text-transform: uppercase; }
 #women_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
-#women_new a{font-size: 16px;padding-top: 20px; padding-bottom: 20px; display: block; }
-#women_new a:hover{cursor: pointer; color:#494545 }
+#women_new a{font-size: 16px;color:#6f6969;height: 50px;line-height: 50px;width: 220px; display: block;  }
+#women_new a:hover{cursor: pointer; color:#000000; }
 #women_pic{width: 90%; margin:  0 auto}
 .women_pic1 img,.women_pic2 img{width: 590px}
 .women_pic2{float: left;}
@@ -50,8 +50,8 @@ text-transform: uppercase; }
 #men h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
 text-transform: uppercase;}
 #men_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
-#men_new a{font-size:16px;padding-top: 20px; padding-bottom: 20px; display: block;}
-#men_new a:hover{cursor: pointer; color:#494545 }
+#men_new a{font-size:16px;color:#6f6969 ;padding-top: 20px; padding-bottom: 20px; display: block;}
+#men_new a:hover{cursor: pointer; color:#000000 ;}
 #men_pic{width: 90%; margin:  0 auto}
 .men_pic1 img,.men_pic2 img{width: 590px}
 .men_pic2{float: left;}
@@ -66,8 +66,8 @@ text-transform: uppercase;}
 #children h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
 text-transform: uppercase;}
 #children_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
-#children_new a{font-size:16px; padding-top: 20px; padding-bottom: 20px; display: block;}
-#children_new a:hover{cursor: pointer; color:#494545 }
+#children_new a{font-size:16px;color:#6f6969 ; padding-top: 20px; padding-bottom: 20px; display: block;}
+#children_new a:hover{cursor: pointer; color:#000000 ; }
 #children_pic{width: 90%; margin:  0 auto}
 .children_pic1 img,.children_pic2 img{width: 590px}
 .children_pic2{float: left;}
@@ -78,5 +78,25 @@ text-transform: uppercase;}
 
 
 /*footer*/
-#footer{margin-top:40px;}
+#footer{margin-top:40px; width: 100%; }
+#top{width: 200px;margin: 0 auto;text-align: center; padding-bottom: 30px}
+.icon-angle-up{color: black; }
+.icon-angle-up:hover{cursor: pointer;}
+#top  p:hover{cursor: pointer;}
+
+#flower{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#flower a{font-size:16px; color:#6f6969 ;padding-top: 20px; padding-bottom: 20px; display: block;}
+#flower a:hover{cursor: pointer; color:#000000 }
+
+.nainiu{width: 90%;padding-top: 30px; margin: 0 auto}
+.nainiu li{float: left; padding-right: 20px}
+.nainiu li img{width: 50px;height: 50px;}
+.f1{padding-left: 300px}
 /*footer*/
+.women_pic1 li,.women_pic2 li,.men_pic1 li,.men_pic2 li,.children_pic1 li,.children_pic2 li{position: relative;}
+.bg{position: absolute;width: 590px; background:rgba(0,0,0,0.2); height: 394px;left: 0;top:40; display: none;}
+.bg1{position: absolute;width: 590px; background:rgba(0,0,0,0.2);height: 788px;left: 0;top:40; display: none}
+
+
+
+
