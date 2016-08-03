@@ -1,4 +1,3 @@
-/*header*/
 *{margin: 0; padding: 0;    font-family: 微软雅黑;font-size: 14px; color:#000; }   
 .clear{clear:both;}   
 a{text-decoration: none;}
@@ -8,7 +7,7 @@ ul{list-style: none;}
 #header{width:100%;border-bottom: 1px solid #ccc;background:#fff;position:fixed;z-index: 999}
 #header_wrap{width:90% ;margin: 0 auto; padding-top: 20px; padding-bottom: 10px} 
 #logo img{height: 20px; float: left;}
-.nav li{float: left;margin-left: 120px; height: 30px; line-height: 30px}
+.nav li{float: left;margin-left: 100px; height: 30px; line-height: 30px}
 .nav{float: right}
 .nav li a{ font-size: 16px; }
 .nav1{border-bottom: 1px solid #000000;}
@@ -17,11 +16,11 @@ ul{list-style: none;}
 
 
 /*banner*/
-#banner{width: 100%; height: 569px; overflow: hidden; top:60px; position:fixed; }
+#banner{width: 100%; height: 569px; overflow: hidden; top:60px; position: relative;}
 .pic{width: 7000px;}
 .pic img{width: 1366px; height: 569px }
 .pic li{float: left;}
-
+/*定位的bg*/
 #banner_bg{width: 100%;height: 120px;position: absolute; z-index: 99;top:512px;background: url(../images/banner-bg.png);}
 #banner_bg h1{ font-family: "Futura";  font-size: 33px; color: #fff; text-align: center;}
 #banner_bg p{font-family: "Futura";color: #fff;font-size: 14px;text-align: center; } 
@@ -31,7 +30,53 @@ ul{list-style: none;}
 /*banner*/
 
 /*women*/
-
-
-
+#women{margin-top: 100px}
+#women h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
+text-transform: uppercase; }
+#women_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#women_new a{font-size: 16px;padding-top: 20px; padding-bottom: 20px; display: block; }
+#women_new a:hover{cursor: pointer; color:#494545 }
+#women_pic{width: 90%; margin:  0 auto}
+.women_pic1 img,.women_pic2 img{width: 590px}
+.women_pic2{float: left;}
+.women_pic1{float: right;}
+.women_pic1 li{padding-top: 30px}
+.women_pic2 li{padding-top: 30px}
 /*women*/
+
+
+/*men*/
+#men{margin-top: 40px}
+#men h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
+text-transform: uppercase;}
+#men_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#men_new a{font-size:16px;padding-top: 20px; padding-bottom: 20px; display: block;}
+#men_new a:hover{cursor: pointer; color:#494545 }
+#men_pic{width: 90%; margin:  0 auto}
+.men_pic1 img,.men_pic2 img{width: 590px}
+.men_pic2{float: left;}
+.men_pic1{float: right;}
+.men_pic1 li{padding-top: 30px}
+.men_pic2 li{padding-top: 30px}
+/*men*/
+
+
+/*children*/
+#children{margin-top: 40px}
+#children h1{width: 100%;font-size: 34px;font-family: "Futura"; text-align: center;padding-bottom: 30px;letter-spacing: 0.05em;
+text-transform: uppercase;}
+#children_new{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#children_new a{font-size:16px; padding-top: 20px; padding-bottom: 20px; display: block;}
+#children_new a:hover{cursor: pointer; color:#494545 }
+#children_pic{width: 90%; margin:  0 auto}
+.children_pic1 img,.children_pic2 img{width: 590px}
+.children_pic2{float: left;}
+.children_pic1{float: right;}
+.children_pic1 li{padding-top: 30px}
+.children_pic2 li{padding-top: 30px}
+/*children*/
+
+
+/*footer*/
+#footer{margin-top:40px;}
+/*footer*/
