@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;    font-family: 微软雅黑;font-size: 14px; color:#000; }   
+.clear{clear:both;}   
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*header*/
+#header{width:100%;border-bottom: 1px solid #ccc;background:#fff;position:fixed;z-index: 999}
+#header_wrap{width:90% ;margin: 0 auto; padding-top: 20px; padding-bottom: 10px} 
+#logo img{height: 20px; float: left;}
+.nav li{float: left;margin-left: 100px; height: 30px; line-height: 30px}
+.nav{float: right}
+.nav li a{ font-size: 16px; }
+.nav1{border-bottom: 1px solid #000000;}
+.nav li:hover{border-bottom: 1px solid #000000;}
+/*header*/
+
+/*banner*/
+#banner{padding-top: 90px }
+
+#women_new{width: 80%;margin: 0 auto; border: 1px solid #ccc;padding-right: 20px;padding-left: 20px;padding-top: 20px }
+#women_new a{font-size: 16px;color:#6f6969; float: left;}
+#women_new a:hover{cursor: pointer; color:#000000; }
+.put1{width: 120px; height: 30px;background:#D2D2D2;border: none; color: #888886;float: left;text-indent: 1em;}
+.put2{background: url(../images/ss.png); width: 30px; height: 30px;border: none; }
+#sousuo{float: right; }
+#women_new p{width: 500px; float: left; padding-top: 40px;text-indent: 2em;line-height: 28px}
+#women_new p:hover{color: #6f6969}
+#women_new img{float: right;padding-top: 20px;padding-bottom: 20px}
+/*banner*/
+
+
+/*main*/
+#main{width: 80%;margin: 0 auto; }
+#main ul li{float: left;padding-right: 22px;text-align:center;margin-top:40px;}
+#main ul li img{width: 246px}
+#main p{font-size: 11px; padding-bottom: 6px}
+#main h5{padding-top: 6px;padding-bottom: 6px }
+#main a{padding:4px;border:1px solid #ccc;}
+#main a:hover{cursor: pointer;border:1px solid #000000}
+/*main*/
+

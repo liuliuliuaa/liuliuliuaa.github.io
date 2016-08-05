@@ -48,4 +48,3 @@ $(".women_pic1 li,.women_pic2 li,.men_pic1 li,.men_pic2 li,.children_pic1 li,.ch
 });
 
 })
-s
