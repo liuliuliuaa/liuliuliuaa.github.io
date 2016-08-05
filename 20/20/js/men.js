@@ -23,6 +23,24 @@ $(function(){
     	$(this).attr("src",b);
     	
     });
-b
+// 回到顶部
+	$("#top").click(function(){
+		$("html,body").animate({"scrollTop":"0px"})
+	});
+
+
+
+	// 底部按钮变换
+	
+	$(".nainiu li").hover(function(){
+		var a=$(this).attr("value");
+		$(this).children("img").attr("src","images/f"+a+a+".png")
+	},
+
+	function(){
+		var a=$(this).attr("value");
+		$(this).children("img").attr("src","images/f"+a+".png")
+
+	});
 
 })

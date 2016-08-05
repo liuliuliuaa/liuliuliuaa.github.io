@@ -39,3 +39,20 @@ ul{list-style: none;}
 #main a:hover{cursor: pointer;border:1px solid #000000}
 /*main*/
 
+/*footer*/
+#footer{margin-top:40px; width: 100%; }
+#top{width: 200px;margin: 0 auto;text-align: center; padding-bottom: 30px}
+.icon-angle-up{color: black; }
+.icon-angle-up:hover{cursor: pointer;}
+#top  p:hover{cursor: pointer;}
+
+#flower{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#flower a{font-size:16px; color:#6f6969 ;padding-top: 20px; padding-bottom: 20px; display: block;}
+#flower a:hover{cursor: pointer; color:#000000 }
+
+.nainiu{width: 90%;padding-top: 30px; margin: 0 auto}
+.nainiu li{float: left; padding-right: 20px}
+.nainiu li img{width: 50px;height: 50px;}
+.f1{padding-left: 300px}
+/*footer*/
+
