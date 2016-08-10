@@ -78,7 +78,7 @@ body{background: url("../imagle/content_bg.jpg")}
 .zp_nav{border-bottom: 100px;padding-top: 20px}
 .zp_nav .navOn{background:#e8044f; cursor: pointer;}
 .zp_nav li{width: 22px;height: 22px;float: left;background:#c7c3b3;margin-right: 10px;text-indent: -999px;border-radius: 50%}
-.zp_nav ul{width: 160px;margin:0 auto;}
+.zp_nav ul{width: 230px;margin:0 auto;}
 /*作品展示*/
 
 

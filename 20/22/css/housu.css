@@ -1,0 +1,68 @@
+*{margin: 0; padding: 0;    font-family: 微软雅黑;font-size: 14px; color:#000; }   
+.clear{clear:both;}   
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*header*/
+#header{width:100%;border-bottom: 1px solid #ccc;background:#fff;position:fixed;z-index: 999}
+#header_wrap{width:90% ;margin: 0 auto; padding-top: 20px; padding-bottom: 10px} 
+#logo img{height: 20px; float: left;}
+.nav li{float: left;margin-left: 100px; height: 30px; line-height: 30px}
+.nav{float: right}
+.nav li a{ font-size: 16px; }
+.nav1{border-bottom: 1px solid #000000;}
+.nav li:hover{border-bottom: 1px solid #000000;}
+/*header*/
+
+/*main*/
+#main{padding-top: 90px; width: 80%;margin: 0 auto}
+.main_left ul li img{width: 104px;height: 138px}
+.main_left ul li{width: 107px;height: 142px;border: 1px solid  #D2D2D2; margin-bottom: 20px}
+.main_left{float: left}
+.main_left ul {margin-top:20px;}
+.main_left h3{font-size: 14px; }
+.big_pic{float: left;position: relative;border:1px solid #BBB; cursor:pointer; left:20px;   }
+
+
+.main_right{float: right}
+.main_right h1{padding-top: 20px }
+.main_right h1 a{ font-size: 18px}
+.main_right p{padding-top: 8px}
+.main_right p a{color: #666; font-size: 14px;}
+.main_right span a{font-size: 16px; }
+.main_right span{padding-top: 8px;display: block;}
+
+
+.lei div{float: left; padding-top: 18px}
+.yanse a,.num a,.chima a{color: #999; padding-right: 90px}
+.lei select{width: 156px;height: 30px;border: 1px solid #999 }
+
+.sele div{float: left; padding-right: 10px; padding-top: 8px}
+.sele select{width: 110px;height: 36px; }
+.gouwuche{width: 456px;height: 40px; background: #313131;margin-top: 16px; }
+.gouwuche a{  width: 456px;height: 40px;display: block; line-height: 40px; text-align: center; color: #fff}
+
+.xq a{padding-top: 18px; display: block; font-size: 14px; padding-bottom: 10px }
+.xq  ul li{color:#999; padding-bottom: 6px; list-style: inside;}
+
+
+
+.xuanze1{display: none;}
+/*main*/
+
+
+/*footer*/
+#footer{margin-top:40px; width: 100%; }
+.icon-angle-up{color: black; }
+.icon-angle-up:hover{cursor: pointer;}
+
+
+#flower{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#flower a{font-size:16px; color:#6f6969 ;padding-top: 20px; padding-bottom: 20px; display: block;}
+#flower a:hover{cursor: pointer; color:#000000 }
+
+.nainiu{width: 90%;padding-top: 30px; margin: 0 auto}
+.nainiu li{float: left; padding-right: 20px}
+.nainiu li img{width: 50px;height: 50px;   }
+.f1{padding-left: 300px}
+/*footer*/
