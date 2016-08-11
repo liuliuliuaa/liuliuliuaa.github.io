@@ -44,10 +44,11 @@ ul{list-style: none;}
 
 .xq a{padding-top: 18px; display: block; font-size: 14px; padding-bottom: 10px }
 .xq  ul li{color:#999; padding-bottom: 6px; list-style: inside;}
+  
+.xuanze1 p,.shu1 p{color: red; display: none;}
 
 
 
-.xuanze1{display: none;}
 /*main*/
 
 
