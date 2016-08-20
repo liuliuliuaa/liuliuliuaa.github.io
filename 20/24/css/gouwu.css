@@ -17,11 +17,52 @@ ul{list-style: none;}
 
 
 /*main*/
-#main{width: 90%; margin: 0 auto;padding-top: 130px;}
-#main_nav ul{height: 40px; background:#ccc }
+#main{width: 90%; margin: 0 auto;padding-top: 100px;}
+#main_nav ul{height: 40px; background:#e1dddd}
 #main_nav ul li{float: left; height: 40px;line-height: 40px; color: #999}
 .navv1{width: 45%; padding-left: 10px}
 .navv2{width: 25%;}
 .navv3{width: 25%;}
 
-#gouwu1{height: 250px;}
+#gouwu1_warp,#gouwu2_warp{border-bottom:1px solid #ccc;height: 250px; }
+#gouwu3_warp {height: 250px}
+#gouwu1_warp div,#gouwu2_warp div,#gouwu3_warp div{float: left;   }
+#gouwu1,#gouwu2,#gouwu3{height: 250px;width: 45%; }
+.gou1 img,.gou11 img,.gou111 img{width: 160px;height: 210px; padding-top: 20px; float: left}
+.gou1right,.gou2right,.gou3right{padding-top: 40px}
+.gou1right h3,.gou2right h3,.gou3right h3{padding-bottom: 20px}
+.gou1right p,.gou2right p,.gou3right p{color: #999;padding-bottom: 10px;}
+.gou1right span,.gou2right span,.gou3right span{color: #666;  }
+.span1{ padding-left: 80px}
+.span2{padding-left: 80px}
+.span3{padding-left: 50px}
+.gou1 a,.gou11 a,.gou111 a{padding: 4px 8px 4px 8px; border: 1px solid #999; margin-top: 20px; margin-right: 20px; color: #666}
+.gou1 a:hover,.gou11 a:hover,.gou111 a:hover{background: #e1dddd}
+
+
+.gou2,.gou22,.gou222{width: 25%; }
+.gou2 p,.gou22 p,.gou222 p{height: 250px; line-height: 250px;padding-right: 300px; padding-left: 10px}
+
+.gou3,.gou33,.gou333{ width: 25%;}
+.gou3 p,.gou33 p,.gou333 p{height: 250px; line-height: 250px; }
+/*main*/
+
+
+/*footer*/
+#footer{margin-top:40px; width: 100%; }
+.icon-angle-up{color: black; }
+.icon-angle-up:hover{cursor: pointer;}
+
+
+#flower{width: 90%;margin: 0 auto; border-bottom: 1px solid #ccc;border-top:1px solid #ccc;}
+#flower a{font-size:16px; color:#6f6969 ;padding-top: 20px; padding-bottom: 20px; display: block;}
+#flower a:hover{cursor: pointer; color:#000000 }
+
+.nainiu{width: 90%;padding-top: 30px; margin: 0 auto}
+.nainiu li{float: left; padding-right: 20px}
+.nainiu li img{width: 50px;height: 50px;   }
+.f1{padding-left: 300px}
+#xuke {width: 90%;text-align: center;font-size:12px;color:#6f6969 ;  padding-top: 20px; padding-left: 30px}
+/*footer*/
+
+
